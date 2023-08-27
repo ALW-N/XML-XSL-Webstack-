@@ -25,7 +25,7 @@
 
     <xs:simpleType name="descriptionType">
         <xs:restriction base="xs:string">
-            <xs:minLength value="50"/>
+            <xs:minLength value="10"/>
             <xs:maxLength value="300"/>
         </xs:restriction>
     </xs:simpleType>
